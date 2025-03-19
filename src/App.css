@@ -1,0 +1,82 @@
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.instructions-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+}
+
+.instructions-content {
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.instructions-page h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.instructions-page h2 {
+  color: #444;
+  margin: 20px 0;
+}
+
+.instructions-page ol {
+  padding-left: 20px;
+}
+
+.instructions-page li {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.instructions-page ul {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+.instructions-page ul li {
+  margin-bottom: 5px;
+}
+
+.start-button {
+  display: block;
+  margin: 30px auto 0;
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.start-button:hover {
+  background-color: #45a049;
+}
+
+.conclude-page {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.conclude-page h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.conclude-page p {
+  color: #666;
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto;
+}

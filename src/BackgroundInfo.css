@@ -1,0 +1,64 @@
+.background-info {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.background-info h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.background-info p {
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #444;
+}
+
+.form-group input[type="number"],
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form-group input[type="range"] {
+  width: calc(100% - 40px);
+  margin-right: 10px;
+}
+
+.range-value {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
