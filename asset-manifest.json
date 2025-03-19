@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/datethefaces/static/css/main.ebfd5642.css",
+    "main.js": "/datethefaces/static/js/main.bb7160f8.js",
+    "static/js/453.b55f419a.chunk.js": "/datethefaces/static/js/453.b55f419a.chunk.js",
+    "index.html": "/datethefaces/index.html",
+    "main.ebfd5642.css.map": "/datethefaces/static/css/main.ebfd5642.css.map",
+    "main.bb7160f8.js.map": "/datethefaces/static/js/main.bb7160f8.js.map",
+    "453.b55f419a.chunk.js.map": "/datethefaces/static/js/453.b55f419a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebfd5642.css",
+    "static/js/main.bb7160f8.js"
+  ]
+}
