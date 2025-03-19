@@ -1,5 +1,5 @@
 {
-  "name": "eyebrowssurvey",
+  "name": "datethefaces",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,7 +11,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://beasleydog.github.io/eyebrowssurvey",
+  "homepage": "https://beasleydog.github.io/datethefaces",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
