@@ -215,6 +215,79 @@ function Instructions({ onStart }) {
           <source src={`${process.env.PUBLIC_URL}/vid.mp4`} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
+
+        <div className="informed-consent">
+          <h2>Informed Consent to Participate in a Research Study</h2>
+          <p>University of Michigan IRB: HUM00269881</p>
+
+          <h3>Information about Study Participation</h3>
+          <p>
+            You are invited to be part of a research study about identifying
+            photos of faces. If you agree to be part of the research study, you
+            will be asked to complete this online survey. We expect this survey
+            to take no more than 8 minutes to complete.
+          </p>
+
+          <p>
+            This form contains information that will help you decide whether to
+            join the study. Taking part in this research project is voluntary.
+            You do not have to participate and you can stop at any time. Please
+            take time to read this entire form before deciding whether to take
+            part in this research project. You must be 18 years old to
+            participate in this study.
+          </p>
+
+          <h3>Purpose of this Study</h3>
+          <p>
+            The purpose of this study is to understand how people perceive
+            photos of faces.
+          </p>
+
+          <h3>Risks</h3>
+          <p>There is little risk associated with this study.</p>
+
+          <h3>Benefits</h3>
+          <p>
+            You may not receive any personal benefits from being in this study.
+            However, others may benefit from the knowledge gained from this
+            study.
+          </p>
+
+          <h3>Financial Information</h3>
+          <p>You will be compensated $2.50 for completion of the survey.</p>
+
+          <h3>Protecting Your Information</h3>
+          <p>
+            We will store your responses on password protected computers. Your
+            responses will be available to the research team. Occasionally, your
+            responses may be seen by University, government officials, study
+            sponsors or funders, auditors, and/or the Institutional Review Board
+            (IRB) to make sure that the study is done in a safe and proper
+            manner.
+          </p>
+
+          <h3>What will happen to the information collected in this study?</h3>
+          <p>
+            We will keep the information we collect about you during the
+            research for future research. We will not collect your name or other
+            information that can identify you directly. We may use or share your
+            research information for future research studies.
+          </p>
+
+          <h3>Contact Information</h3>
+          <p>
+            If you have questions about this research study, please contact
+            reporting.study@umich.edu
+          </p>
+
+          <h3>Consent</h3>
+          <p>
+            By selecting "begin" or "start" you are consenting to participate in
+            this research survey. If you do not wish to participate, click the
+            "x" in the top corner of your browser to exit.
+          </p>
+        </div>
+
         <button className="start-button" onClick={onStart}>
           Begin
         </button>
